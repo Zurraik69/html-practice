@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novell Services Login</title>
+</head>
+
+<body>
+
+    <form action="">
+
+        <table>
+
+            <caption>
+                Novell Services Login
+            </caption>
+
+            <tr>
+                <td>
+                    <label for="username">Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="city">City of<br>Employment:</label>
+                </td>
+                <td>
+                    <input type="text" id="city">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="server">Web server:</label>
+                </td>
+                <td>
+                    <select id="server">
+                        <option value="">-- Choose a server --</option>
+                        <option value="server1">Server 1</option>
+                        <option value="server2">Server 2</option>
+                        <option value="server3">Server 3</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Please specify<br>your role:
+                </td>
+
+                <td>
+                    <input type="radio" name="role" id="admin">
+                    <label for="admin">Admin</label>
+                    <br>
+
+                    <input type="radio" name="role" id="engineer">
+                    <label for="engineer">Engineer</label>
+                    <br>
+
+                    <input type="radio" name="role" id="manager">
+                    <label for="manager">Manager</label>
+                    <br>
+
+                    <input type="radio" name="role" id="guest">
+                    <label for="guest">Guest</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Single Sign-on<br>to the following:
+                </td>
+
+                <td>
+                    <input type="checkbox" id="mail">
+                    <label for="mail">Mail</label>
+                    <br>
+
+                    <input type="checkbox" id="payroll">
+                    <label for="payroll">Payroll</label>
+                    <br>
+
+                    <input type="checkbox" id="selfservice">
+                    <label for="selfservice">Self-service</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
