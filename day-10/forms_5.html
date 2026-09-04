@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <table>
+      <form action="">
+        <h1><b>Feedback Form</b></h1>
+        <tr>
+          <td>
+            <label for="fullname"><b>Full Name:</b></label
+            ><br />
+            <input type="text" id="fullname" placeholder="Enter your name" required/>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email"><b>Email:</b></label>
+                <br>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password"><b>Password:</b></label>
+                <br>
+                <input type="password" id="password" placeholder="Enter password" required>
+            </td>
+        </tr>
+        <tr>
+            
+            <td>
+                <label for=""><b>Rate our service (1-10):</b></label>
+                <br>
+                <input type="number" max="10" min="1" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Date of Visit:</b></label>
+                <br>
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>How did you hear about us?</b></label>
+                <br>
+                <br>
+                <input type="radio" id="friends" name="aboutus"> <label for="friends"><b>Friends</b></label> <br>
+                <input type="radio" id="internet" name="aboutus"> <label for="internet"><b>Internet</b></label>
+                <br>
+                <input type="radio" id="advertisements" name="aboutus"> <label for="advertisements"><b>Advertisements</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>What did you like about our ervices?(Select all that apply)</b></label>
+                <br> <br>
+                <input type="checkbox" id="quality"> <label for="quality"><b>Quality</b></label>
+                <br>
+                <input type="checkbox" id="speed"> <label for="speed"><b>Speed</b></label>
+                <br>
+                <input type="checkbox" id="customer support"> <label for="customer support"><b>Customer Support</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="additional comments"><b>Additional Comments:</b></label>
+                <br>
+                <textarea  id="additional comments" rows="5" cols="45">Write Your Feedback Here...</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                 <button type="submit"><b>Submit Feedback</b></button>
+            </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
