@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My E-Commerce Store</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><u>My E-Commerce Store</u></h1>
+      <p>Welcome to our online shopping store</p>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#cart">Shopping Cart</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#login">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2><u>Online Shopping</u></h2>
+        <p>Shop the latest products at the best prices.</p>
+      </section>
+
+      <section id="categories">
+        <h2><u>Categories</u></h2>
+
+        <ul>
+          <li><a href="#electronics">Electronics</a></li>
+          <li><a href="#clothing">Clothing</a></li>
+          <li><a href="#shoes">Shoes</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#accessories">Accessories</a></li>
+        </ul>
+      </section>
+
+      <section id="products">
+        <h2><u>Our Products</u></h2>
+
+        <article>
+          <header>
+            <h3>Wireless Headphones</h3>
+          </header>
+
+          <figure>
+            <img
+              src="Image/headphone.jpg"
+              alt="Wireless Headphones"
+              width="200"
+            />
+            <figcaption>Wireless Bluetooth Headphones</figcaption>
+          </figure>
+
+          <p>
+            <strong>Product Details:</strong>
+            Wireless Bluetooth headphones with noise cancellation and long
+            battery life.
+          </p>
+
+          <p><strong>Price:</strong> ₹2,999</p>
+
+          <p><strong>Discount:</strong> 20% OFF</p>
+
+          <p><strong>Final Price:</strong> ₹2,399</p>
+
+          <footer>
+            <button type="button">Add to Cart</button>
+            <button type="button">Buy Now</button>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>Smart Watch</h3>
+          </header>
+
+          <figure>
+            <img src="Image/smartwatch.jpg" alt="Smart Watch" width="200" />
+            <figcaption>Fitness Smart Watch</figcaption>
+          </figure>
+
+          <p>
+            <strong>Product Details:</strong>
+            Smart watch with fitness tracking, heart-rate monitoring and
+            multiple sports modes.
+          </p>
+
+          <p><strong>Price:</strong> ₹4,999</p>
+
+          <p><strong>Discount:</strong> 15% OFF</p>
+
+          <p><strong>Final Price:</strong> ₹4,249</p>
+
+          <footer>
+            <button type="button">Add to Cart</button>
+            <button type="button">Buy Now</button>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>Running Shoes</h3>
+          </header>
+
+          <figure>
+            <img src="Image/runningshoes.jpg" alt="Running Shoes" width="200" />
+            <figcaption>Comfortable Running Shoes</figcaption>
+          </figure>
+
+          <p>
+            <strong>Product Details:</strong>
+            Lightweight and comfortable running shoes suitable for daily
+            workouts.
+          </p>
+
+          <p><strong>Price:</strong> ₹3,499</p>
+
+          <p><strong>Discount:</strong> 10% OFF</p>
+
+          <p><strong>Final Price:</strong> ₹3,149</p>
+
+          <footer>
+            <button type="button">Add to Cart</button>
+            <button type="button">Buy Now</button>
+          </footer>
+        </article>
+      </section>
+
+      <section id="reviews">
+        <h2><u>Customer Reviews</u></h2>
+
+        <article>
+          <h3>Rahul</h3>
+          <p>Rating: ★★★★★</p>
+          <p>Great product and excellent sound quality.</p>
+        </article>
+
+        <article>
+          <h3>Ali</h3>
+          <p>Rating: ★★★★☆</p>
+          <p>Good quality product. Delivery was also fast.</p>
+        </article>
+
+        <article>
+          <h3>Priya</h3>
+          <p>Rating: ★★★★★</p>
+          <p>Very comfortable and worth the price.</p>
+        </article>
+      </section>
+
+      <section id="cart">
+        <h2><u>Shopping Cart</u></h2>
+
+        <article>
+          <h3>Cart Items</h3>
+
+          <ul>
+            <li>Wireless Headphones - ₹2,399 - Quantity: 1</li>
+
+            <li>Smart Watch - ₹4,249 - Quantity: 1</li>
+          </ul>
+
+          <p><strong>Total Amount:</strong> ₹6,648</p>
+
+          <button type="button">Proceed to Checkout</button>
+        </article>
+      </section>
+
+      <section id="register">
+        <h2><u>Create an Account</u></h2>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Registration Form</legend>
+
+            <p>
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required />
+            </p>
+
+            <p>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </p>
+
+            <p>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </p>
+
+            <p>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required />
+            </p>
+
+            <p>
+              <label for="confirm-password"> Confirm Password: </label>
+
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="gender">Gender:</label>
+
+              <select id="gender" name="gender">
+                <option value="" selected disabled>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </p>
+
+            <button type="submit">Register</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section id="login">
+        <h2>Login</h2>
+
+        <form action="#">
+          <fieldset>
+            <legend>Login Form</legend>
+
+            <p>
+              <label for="login-email">Email:</label>
+              <input type="email" id="login-email" name="email" required />
+            </p>
+
+            <p>
+              <label for="login-password">Password:</label>
+              <input
+                type="password"
+                id="login-password"
+                name="password"
+                required
+              />
+            </p>
+
+            <p>
+              <label>
+                <input type="checkbox" name="remember" />
+                Remember Me
+              </label>
+            </p>
+
+            <button type="submit">Login</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <aside>
+        <h2><u>Special Offers</u></h2>
+        <p>Get extra discounts on selected products.</p>
+        <p>Free delivery on orders above ₹999.</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 My E-Commerce Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
